@@ -26,13 +26,17 @@ export function getAddress(options = {}) {
   return _.defaults(options, defaults);
 }
 
-
 export function createShopFactory() {
   Factory.define("shop", Shops, {
     name: faker.internet.domainName(),
-    description: faker.company.catchPhrase(),
-    keywords: faker.company.bsAdjective(),
-    addressBook: [ getAddress() ],
+    description: "", // faker.company.catchPhrase()
+    keywords: "", // faker.company.bsAdjective()
+    addressBook: [
+      getAddress()
+      // getAddress({
+      //   country: "TW"
+      // })
+    ],
     domains: ["localhost"],
     emails: [
       {
@@ -40,41 +44,34 @@ export function createShopFactory() {
         verified: faker.random.boolean()
       }
     ],
-    currency: "USD", // could use faker.finance.currencyCode()
+    currency: "TWD", // could use faker.finance.currencyCode()
     currencies: {
-      USD: {
+      TWD: {
         format: "%s%v",
-        symbol: "$"
-      },
-      EUR: {
-        format: "%v %s",
-        symbol: "€",
-        decimal: ",",
-        thousand: "."
+        symbol: "NT$"
       }
     },
-    locale: "en",
+    locale: "zh",
     locales: {
       continents: {
-        NA: "North America"
+        AS: "Asia"
       },
       countries: {
-        US: {
-          name: "United States",
-          native: "United States",
-          phone: "1",
-          continent: "NA",
-          capital: "Washington D.C.",
-          currency: "USD,USN,USS",
-          languages: "en"
+        TW: {
+          name: "Taiwan",
+          native: "臺灣",
+          phone: "886",
+          continent: "AS",
+          capital: "Taipei",
+          currency: "TWD",
+          languages: "zh"
         }
       }
     },
-    baseUOM: "OZ",
+    baseUOM: "KG",
     unitsOfMeasure: [{
       uom: "OZ",
-      label: "Ounces",
-      default: true
+      label: "Ounces"
     }, {
       uom: "LB",
       label: "Pounds"
@@ -83,7 +80,8 @@ export function createShopFactory() {
       label: "Grams"
     }, {
       uom: "KG",
-      label: "Kilograms"
+      label: "Kilograms",
+      default: true
     }],
     layout: [{
       layout: "coreLayout",
@@ -110,14 +108,13 @@ export function createShopFactory() {
       enabled: true
     }],
     public: true,
-    timezone: "US/Pacific",
+    timezone: "Asia/Taipei",
     metafields: [],
     defaultRoles: ["guest", "account/profile"],
     createdAt: new Date,
     updatedAt: new Date()
   });
 }
-
 
 export default function () {
   /**
