@@ -1,0 +1,29 @@
+[{
+  "i18n": "zhtw",
+  "ns": "reaction-shippo",
+  "translation": {
+    "reaction-shippo": {
+      "admin": {
+        "dashboard": {
+          "shippoLabel": "景泰蓝",
+          "shippoTitle": "景泰蓝",
+          "shippoDescription": "貨運標籤及追蹤"
+        },
+        "shippingGrid": {
+          "carrier": "運營商",
+          "enabled": "啟用"
+        },
+        "shippingSettings": {
+          "noCarriersFound": "没有設定運送方式。",
+          "editApiKey": "編輯API KEY",
+          "carrierSaved": "更新成功。",
+          "carrierFailed": "更新失敗。",
+          "refresh": "已更新"
+        }
+      },
+      "shippo": {
+        "connectedAndSaved": "儲存設定！API已啟用。"
+      }
+    }
+  }
+}]

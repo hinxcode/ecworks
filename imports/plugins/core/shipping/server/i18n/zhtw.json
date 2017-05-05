@@ -1,0 +1,80 @@
+[{
+  "i18n": "zhtw",
+  "ns": "reaction-shipping",
+  "translation": {
+    "reaction-shipping": {
+      "admin": {
+        "dashboard": {
+          "shippingLabel": "物流",
+          "shippingTitle": "物流",
+          "shippingDescription": "提供運費"
+        },
+        "settings": {
+          "shippingLabel": "物流"
+        }
+      },
+      "checkoutShipping": {
+        "selectShippingOption": "選擇物流方式",
+        "noShippingMethods": "未設定物流方式。",
+        "configureNow": "現在配置。",
+        "shipping": "物流"
+      },
+      "shipping": {
+        "addShippingProvider": "新增物流廠商",
+        "editShippingProvider": "編輯物流廠商",
+        "addShippingMethod": "新增物流方式",
+        "editShippingMethod": "編輯物流方式",
+        "deleteShippingMethod": "刪除物流方式",
+        "noSettingsForThisView": "未設定",
+        "noShippingMethods": "未設定物流方式。",
+        "removeShippingMethodConfirm": "你確定要刪除{{method}}？",
+        "removeShippingMethodTitle": "刪除物流方式",
+        "shippingMethodDeleted": "物流方式已被刪除。",
+        "removeShippingProvider": "刪除物流供應商",
+        "removeShippingProviderConfirm": "你確定要刪除{{provider}}？",
+        "shippingProviderSaved": "物流提供商儲存。",
+        "shippingProviderUpdated": "物流廠商的數據更新。",
+        "shippingMethodRateAdded": "物流方式費用計算。",
+        "shippingMethodRateUpdated": "更新物流費用率。",
+        "name": "名字",
+        "label": "標籤",
+        "group": "群組",
+        "cost": "費用",
+        "handling": "處理",
+        "rate": "率",
+        "enabled": "啟用",
+        "disabled": "關閉",
+        "addRate": "新增率",
+        "updateRate": "更新{{name}}率",
+        "addNewCondition": "新增條件",
+        "deleteCondition": "刪除條件",
+        "provider": {
+          "name": "服務代碼",
+          "label": "標籤",
+          "enabled": "啟用"
+        }
+      },
+      "shippingMethod": {
+        "name": "方法名稱",
+        "label": "標籤",
+        "group": "群組",
+        "cost": "費用",
+        "handling": "處理",
+        "rate": "率",
+        "enabled": "啟用",
+        "matchingCartRanges": "可運送範圍",
+        "validRanges": {
+          "begin": "開始",
+          "end": "結束"
+        },
+        "matchingLocales": "匹配的語言環境",
+        "validLocales": {
+          "origination": "從",
+          "destination": "至",
+          "deliveryBegin": "運送預估。",
+          "deliveryEnd": "交貨預估。"
+        }
+      }
+    }
+  }
+}]

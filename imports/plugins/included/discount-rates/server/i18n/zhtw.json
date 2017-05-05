@@ -1,0 +1,23 @@
+[{
+  "language": "Chinese",
+  "i18n": "zhtw",
+  "ns": "discount-rates",
+  "translation": {
+    "reaction-discounts": {
+      "admin": {
+        "settings": {
+          "ratesLabel": "價格",
+          "noCustomDiscountRatesFound": "沒有找到折扣。",
+          "settingsSaveSuccess": "更新設定成功。",
+          "settingsSaveFailure": "無法更新設定。",
+          "confirmRateDelete": "確認折扣刪除。"
+        },
+        "discountGrid": {
+          "label": "標籤",
+          "discountMethod": "方法",
+          "discount": "折扣"
+        }
+      }
+    }
+  }
+}]

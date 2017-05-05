@@ -1,0 +1,27 @@
+[{
+  "i18n": "zhtw",
+  "ns": "reaction-social",
+  "translation": {
+    "reaction-social": {
+      "admin": {
+        "dashboard": {
+          "socialLabel": "社群媒體",
+          "socialTitle": "社群媒體",
+          "socialDescription": "社群媒體設定"
+        },
+        "settings": {
+          "facebook": "Facebook",
+          "twitter": "Twitter",
+          "pinterest": "Pinterest",
+          "googleplus": "Google+",
+          "appId": "APP ID",
+          "username": "用户名",
+          "appSecret": "APP SECRET",
+          "profilePage": "個人主頁",
+          "socialSettingsLabel": "社群媒體設定",
+          "socialSettingsSaved": "社群媒體更新"
+        }
+      }
+    }
+  }
+}]

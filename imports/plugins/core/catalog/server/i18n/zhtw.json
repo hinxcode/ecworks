@@ -1,0 +1,24 @@
+[{
+  "i18n": "zhtw",
+  "ns": "reaction-catalog",
+  "translation": {
+    "reaction-catalog": {
+      "admin": {
+        "shortcut": {
+          "catalogLabel": "目錄",
+          "catalogTitle": "目錄"
+        },
+        "dashboard": {
+          "catalogLabel": "目錄",
+          "catalogTitle": "目錄",
+          "catalogDescription": "商店目錄"
+        },
+        "settings": {
+          "catalogSettingsLabel": "目錄設定",
+          "catalogSettingsTitle": "目錄設定",
+          "catalogSettingsDescription": "商店目錄"
+        }
+      }
+    }
+  }
+}]

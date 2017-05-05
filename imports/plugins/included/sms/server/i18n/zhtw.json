@@ -1,0 +1,31 @@
+[{
+  "i18n": "zhtw",
+  "ns": "reaction-sms",
+  "translation": {
+    "reaction-sms": {
+      "admin": {
+        "dashboard": {
+          "smsLabel": "簡訊",
+          "smsTitle": "簡訊",
+          "smsDescription": "簡訊寄送訂單通知"
+        },
+        "settings": {
+          "smsSettingsLabel": "簡訊設定",
+          "smsProvider": "簡訊供應商",
+          "providerName": "供應商名稱",
+          "selectProvider": "選擇簡訊供應商",
+          "phoneNumber": "Sms電話號碼",
+          "apiKey": "API KEY",
+          "apiToken": "API TOKEN"
+        },
+        "alerts": {
+          "noApiKey": "請填寫API KEY",
+          "noApiToken": "請新增API TOKEN / Secret",
+          "noSmsProvider": "請選擇簡訊供應商",
+          "noSmsPhone": "請新增供應商提供之號碼",
+          "saveSuccess": "儲存成功"
+        }
+      }
+    }
+  }
+}]

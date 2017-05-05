@@ -1,0 +1,44 @@
+[{
+  "i18n": "zhtw",
+  "ns": "reaction-taxes",
+  "translation": {
+    "reaction-taxes": {
+      "admin": {
+        "shortcut": {
+          "taxesLabel": "稅款",
+          "taxesTitle": "稅款"
+        },
+        "dashboard": {
+          "taxesLabel": "稅款",
+          "taxesTitle": "稅款",
+          "taxesDescription": "稅款設定"
+        },
+        "taxGrid": {
+          "taxCode": "代碼",
+          "rate": "率",
+          "country": "國家",
+          "region": "地區",
+          "postal": "郵遞區號"
+        },
+        "settings": {
+          "taxSettingsLabel": "稅款設定"
+        },
+        "taxSettings": {
+          "noCustomTaxRatesFound": "未找到自定義稅率。",
+          "shopCustomTaxRatesSaved": "自定義稅率已更新。",
+          "shopCustomTaxRatesFailed": "更新稅率時出錯。",
+          "shopTaxMethodsSaved": "已更新的納稅方式。",
+          "shopTaxMethodsFailed": "更新納稅方式失敗。",
+          "customRatesDescription": "自定義費用",
+          "taxCode": "稅碼",
+          "taxShipping": "包括發貨",
+          "taxRate": "費用",
+          "discountsIncluded": "包括折扣",
+          "taxable": "應稅",
+          "nottaxable": "免稅",
+          "confirmRateDelete": "確認刪除稅率"
+        }
+      }
+    }
+  }
+}]

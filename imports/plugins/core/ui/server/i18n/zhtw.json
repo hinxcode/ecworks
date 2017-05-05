@@ -1,0 +1,25 @@
+[{
+  "i18n": "zhtw",
+  "ns": "reaction-ui",
+  "translation": {
+    "reaction-catalog": {
+      "admin": {
+        "dashboard": {
+          "themesLabel": "主题",
+          "themesTitle": "主题",
+          "themesDescription": "主题"
+        }
+      },
+      "reactionUI": {
+        "editTheme": "編輯主题",
+        "duplicateTheme": "重複的主题",
+        "duplicateThemeError": "無法複製主题",
+        "publishThemeError": "無法應用主题{{themeName}}",
+        "components": {
+          "navbar": "導航列",
+          "button": "按鍵"
+        }
+      }
+    }
+  }
+}]

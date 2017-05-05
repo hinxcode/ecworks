@@ -1,0 +1,15 @@
+[{
+  "i18n": "zhtw",
+  "ns": "reaction-i18n",
+  "translation": {
+    "reaction-i18n": {
+      "admin": {
+        "i18nSettings": {
+          "localization": "貨幣及語言項設定",
+          "enabledCurrencies": "貨幣",
+          "enabledLanguages": "語言"
+        }
+      }
+    }
+  }
+}]

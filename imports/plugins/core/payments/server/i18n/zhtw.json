@@ -1,0 +1,34 @@
+[{
+  "language": "Chinese",
+  "i18n": "zhtw",
+  "ns": "reaction-payments",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "paymentsLabel": "付款方式",
+          "paymentsTitle": "付款方式"
+        },
+        "dashboard": {
+          "paymentsLabel": "付款方式",
+          "paymentsTitle": "付款方式",
+          "paymentsDescription": "付款方式設定"
+        },
+        "settings": {
+          "paymentSettingsLabel": "付款方式設定"
+        },
+        "paymentSettings": {
+          "paymentMethod": "預設"
+        }
+      },
+      "checkoutPayment": {
+        "addPaymentToCompleteOrder": "新增付款方式",
+        "processingError": "付款出現问题。",
+        "completeYourOrder": "完成订单",
+        "noPaymentMethods": "未設定付款方式。",
+        "configureNow": "现在設定。",
+        "failedToPlaceOrder": "無法處理訂單。"
+      }
+    }
+  }
+}]

@@ -24,7 +24,6 @@ import sv from "./sv.json";
 import tr from "./tr.json";
 import vi from "./vi.json";
 import zh from "./zh.json";
-
 //
 // we want all the files in individual
 // imports for easier handling by

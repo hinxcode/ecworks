@@ -22,11 +22,12 @@ import en from "./en.json";
 // import tr from "./tr.json";
 // import vi from "./vi.json";
 // import zh from "./zh.json";
+import zhtw from "./zhtw.json";
 
 //
 // we want all the files in individual
 // imports for easier handling by
 // automated translation software
 //
-loadTranslations([en]);
+loadTranslations([en, zhtw]);
 // loadTranslations([ar, bg, de, el, en, es, fr, he, hr, it, my, nb, nl, pl, pt, ro, ru, sl, sv, tr, vi, zh]);

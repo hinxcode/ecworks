@@ -1,0 +1,20 @@
+[{
+  "i18n": "zhtw",
+  "ns": "reaction-dashboard",
+  "translation": {
+    "reaction-dashboard": {
+      "admin": {
+        "shortcut": {
+          "dashboardLabel": "控制台"
+        },
+        "dashboard": {
+          "packageGroupActionsLabel": "動作",
+          "packageGroupSettingsLabel": "設定"
+        },
+        "settings": {
+          "shopSettingsLabel": "商店設定"
+        }
+      }
+    }
+  }
+}]

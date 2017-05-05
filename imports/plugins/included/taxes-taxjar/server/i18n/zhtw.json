@@ -1,0 +1,26 @@
+[{
+  "language": "Chinese",
+  "i18n": "zhtw",
+  "ns": "taxes-taxjar",
+  "translation": {
+    "reaction-taxes": {
+      "admin": {
+        "shortcut": {
+          "taxjarLabel": "TaxJar",
+          "taxjarTitle": "TaxJar"
+        },
+        "dashboard": {
+          "taxjarLabel": "TaxJar",
+          "taxjarTitle": "TaxJar",
+          "taxjarDescription": "TaxJar税"
+        },
+        "taxSettings": {
+          "taxjarLabel": "TaxJar",
+          "taxjarSettingsLabel": "TaxJar",
+          "taxjarCredentials": "新增憑證",
+          "taxjarGetCredentialsURL": "獲得憑證網址"
+        }
+      }
+    }
+  }
+}]

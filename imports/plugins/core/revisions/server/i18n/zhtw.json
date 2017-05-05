@@ -1,0 +1,22 @@
+[{
+  "i18n": "zhtw",
+  "ns": "reaction-revisions",
+  "translation": {
+    "reaction-revisions": {
+      "admin": {
+        "dashboard": {
+          "preview": "預覽",
+          "revisionsLabel": "修改",
+          "revisionsTitle": "修改",
+          "revisionsDescription": "版本控制"
+        },
+        "settings": {
+          "productRevisionsLabel": "商品修改"
+        },
+        "toolbar": {
+          "publishAll": "發布更新"
+        }
+      }
+    }
+  }
+}]

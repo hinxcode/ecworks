@@ -1,0 +1,15 @@
+[{
+  "i18n": "zhtw",
+  "ns": "reaction-layout",
+  "translation": {
+    "reaction-layout": {
+      "admin": {
+        "dashboard": {
+          "layoutLabel": "介面設計",
+          "layoutTitle": "介面設計",
+          "layoutDescription": "介面設計"
+        }
+      }
+    }
+  }
+}]

@@ -1,0 +1,23 @@
+[{
+  "i18n": "zhtw",
+  "ns": "reaction-shipping-rates",
+  "translation": {
+    "reaction-shipping-rates": {
+      "admin": {
+        "shippingSettings": {
+          "flatRateLabel": "物流費用計算",
+          "confirmRateDelete": "費用率（百比比）？",
+          "rateSaved": "費用率（百比比）更新。",
+          "rateFailed": "費用率（百比比）更新失败。",
+          "noRatesFound": "未設定費用率（百比比）。"
+        },
+        "shippingGrid": {
+          "name": "名字",
+          "group": "群组",
+          "rate": "率",
+          "label": "標籤"
+        }
+      }
+    }
+  }
+}]
