@@ -1,0 +1,24 @@
+sudo: required
+
+language: node_js
+node_js:
+  - "7"
+
+services:
+  - docker
+
+env:
+  DOCKER_COMPOSE_VERSION: 1.4.2
+
+before_install:
+  - sudo rm /usr/local/bin/docker-compose
+  - curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
+  - chmod +x docker-compose
+  - sudo mv docker-compose /usr/local/bin
+  - "curl -L https://raw.githubusercontent.com/arunoda/travis-ci-meteor-packages/master/configure.sh | /bin/sh"
+  - "export PATH=$HOME/.meteor:$PATH"
+  - docker build -t hinx/ecworks .
+  - docker run -d -p 127.0.0.1:80:3000 hinx/ecworks"
+
+script:
+  - docker-compose up
